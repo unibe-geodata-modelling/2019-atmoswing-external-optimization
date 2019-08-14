@@ -2,6 +2,7 @@
 External optimization AtmoSwing
 
 Abstract
+
 AtmoSwing (Analog Technique Model for Statistical weather downscalING and forecastING) is a
 scientific open-source software, developed at the university of Lausanne to automate calculations from
 a set of data to possible events and conditions in the future. The software package includes a forecaster,
@@ -10,6 +11,7 @@ five interdependent input metadata parameters for the AtmoSwingOptimizer by writ
 Python program in PyCharm.
 
 Method
+
 The main workflow of the program is to create an array with vectors of possible combinations
 for the input parameters, run AtmoSwingOptimizer in a loop of testing all vectors of the array
 and rely the creation of the next array on the resulting low calibration number (CRPS) and the
@@ -21,6 +23,7 @@ CRPS of the first run. In the runs 3 and 4, ranges get smaller and the resolutio
 higher (Fig. 1).
 
 Result
+
 By running the python program, a minimum number of 0.2715581 for the CRPS value could
 be pointed out. The optimal vector of the five input parameters for the xml file related to this
 CRPS minimum is: Analogs_number = 15.160468743, x_min = -3.75, x_points_nb = 12, y_min
