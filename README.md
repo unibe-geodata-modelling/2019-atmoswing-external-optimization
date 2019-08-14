@@ -20,7 +20,7 @@ parameters for the xml file of AtmoSwingOptimizer. In the first run, the wide ra
 combined with a low number of possible values per parameter. The second run focuses the
 creation of the array on a new range around the optimized parameters relating to resulting
 CRPS of the first run. In the runs 3 and 4, ranges get smaller and the resolution of values get
-higher (Fig. 1).
+higher.
 
 Result
 
@@ -28,4 +28,4 @@ By running the python program, a minimum number of 0.2715581 for the CRPS value 
 be pointed out. The optimal vector of the five input parameters for the xml file related to this
 CRPS minimum is: Analogs_number = 15.160468743, x_min = -3.75, x_points_nb = 12, y_min
 = 41.25, y_points_nb = 9. While there were five possible values for parameter 1 estimated to
-be possible for the same CRPS minimum, what is visible in Figure 8.
+be possible for the same CRPS minimum.
